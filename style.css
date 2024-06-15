@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+header {
+    width: 1170px;
+    margin: auto;
+}
+
+section {
+    width: 1170px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    height: 50px;
+    width: 175px;
+    margin-top: 20px;
+}
+
+body {
+    height: 100vh;
+}
+
+.banner,
+.tours-section {
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+
+nav h1 {
+    margin-left: -350px;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.orange-text {
+    color: #FF5400;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.banner {
+    background: linear-gradient(#00000080, #00000025), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    margin-top: 120px;
+}
+
+.banner-description {
+    width: 720px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.travel {
+    display: flex;
+    width: 850px;
+    height: 85px;
+    background-color: #ffffff62;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.travel-detail {
+    width: 165px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding-left: 15px;
+}
+
+.selector {
+    width: 200px;
+}
+
+.travel-detail button {
+    height: 52px;
+    color: #FFFFFF;
+    background-color: #FF5400;
+    border: none;
+}
+
+.orng-back {
+    background-color: #FF5400;
+}
+
+#toggler,
+label {
+    display: none;
+}
+
+.tours-section {
+    display: flex;
+    gap: 50px;
+}
+
+.tours-section ul li {
+    margin-top: 10px;
+}
+
+.img-container-1 {
+    display: flex;
+}
+
+.destination-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.destination-section p {
+    text-align: center;
+    margin: 40px 200px;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maldives {
+    background-image: url(Images/Rectangle\ 5.png);
+    height: 300px;
+    width: 575px;
+    border-radius: 15px;
+}
+
+.indonesia {
+    background-image: url(Images/Rectangle\ 8.png);
+    height: 300px;
+    width: 575px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+.img-container-2 {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.srilanka {
+    background-image: url(Images/Rectangle\ 6.png);
+    width: 374px;
+    height: 285px;
+    border-radius: 15px;
+}
+
+.north-america {
+    background-image: url(Images/Rectangle\ 7.png);
+    width: 474px;
+    height: 285px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.kashmir {
+    background-image: url(Images/Rectangle\ 9.png);
+    width: 274px;
+    height: 285px;
+    border-radius: 15px;
+}
+
+.img-container-2 img {
+    display: none;
+}
+
+.kashmir-title {
+    display: none;
+}
+
+.img-container-3 {
+    display: flex;
+}
+
+.bangladesh {
+    background-image: url(Images/Rectangle\ 11.png);
+    width: 473px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.bandarban {
+    background-image: url(Images/Rectangle\ 10.png);
+    width: 675px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:600px) {
+
+    header,
+    section {
+        width: 335px;
+        margin: auto;
+    }
+
+    nav ul,
+    .travel,
+    .tours-section,
+    .img-container-1,
+    .img-container-2,
+    .img-container-3 {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    nav ul {
+        padding: 20px;
+    }
+
+    label {
+        display: inline-flex;
+    }
+
+    #toggler:checked~.menu {
+        max-height: 100%;
+        background-color: lightblue;
+    }
+
+    nav h1 {
+        margin-left: -100px;
+        font-size: 1.25rem;
+        font-weight: 900;
+    }
+
+    .banner h1 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .travel {
+        width: 300px;
+        height: 340px;
+    }
+
+    .travel-detail {
+        width: 245px;
+    }
+
+    .travel-detail button {
+        height: 35px;
+    }
+
+    .selector {
+        width: 260px;
+        height: 60px;
+    }
+
+    .destination-section {
+        margin-top: 650px;
+    }
+
+    .destination-section p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-container-1 div,
+    .img-container-2 div,
+    .img-container-3 div,
+    .img-container-2 img {
+        width: 335px;
+        height: 175px;
+        margin: 12px 0px;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-america,
+    .bangladesh,
+    .bandarban {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .kashmir {
+        display: none;
+    }
+
+    .img-container-2 img {
+        display: block;
+        position: ;
+    }
+
+    .kashmir-title {
+        display: block;
+        position: relative;
+        bottom: 140px;
+        left: 130px;
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: -50px;
+    }
+
+    
+
+}
