@@ -36,7 +36,8 @@ body {
 }
 
 .banner,
-.tours-section {
+.tours-section,
+.satorini-tour-container {
     height: 500px;
 }
 
@@ -243,10 +244,375 @@ label {
     margin-left: 25px;
 }
 
+.destination-choosing-section-title-and-description {
+    text-align: center;
+}
+
+.destination-choosing-section-title-description {
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+.destination-choosing-section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+
+.card-container h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-container p {
+    font-size: 1rem;
+}
+
+.hotel-card {
+    width: 49%;
+    background-color: #ffdab03d;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.map-card {
+    width: 49%;
+    background-color: #98eaff48;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.discount-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.discount-card {
+    width: 49%;
+    background-color: #ffdab03d;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.discount-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.discount-card p {
+    font-size: 1rem;
+}
+
+.discount-section-header {
+    text-align: center;
+}
+
+.discount-section-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.discount-section-header P {
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+.satorini-tour-container,
+.satorini-tour-container-3 {
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    padding: 75px 75px 75px 500px;
+}
+
+.satorini-tour {
+    background-color: #ffffffc0;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.tour-details-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tour-details{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.satorini-tour h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.tour-description {
+    font-size: 1rem;
+    margin: 10px 50px -1px 1px;
+}
+
+.tour-cost {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.satorini-tour button {
+    margin-top: -5px;
+}
+
+.satorini-tour-container-2 {
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    padding: 75px 500px 75px 75px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.Packages-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #FF5400;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    margin-left: 485px;
+    margin-top: 25px;
+}
+
+.place-section-description {
+    width: 535px;
+}
+
+.place-section {
+    display: flex;
+    gap: 25px;
+}
+
+.place-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: -10px;
+}
+
+.place-section p {
+    margin-top: -15px;
+}
+
+.place-section ul {
+    font-weight: 700;
+}
+
+.place-section li {
+    padding: 10px;
+}
+
+.place-section button {
+    margin-top: -10px;
+}
+
+.mountain-video {
+    margin-top: -120px;
+}
+
+.bg-img {
+    position: absolute;
+    z-index: 1;
+    height: 430px;
+}
+
+.mountain-video h3 {
+    z-index: 5;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    top: 250px;
+}
+
+.mntn {
+    left: 175px;
+}
+
+.bng {
+    left: 235px;
+    margin-top: -20px;
+}
+
+.menu-icon,
+.full-screen-icon,
+.mute-icon,
+.icons p,
+.pause-icon {
+    position: relative;
+}
+
+.pause-icon {
+    z-index: 6;
+    left: 30px;
+    top: 365px;
+}
+
+.icons p {
+    color: #FFFFFF;
+    z-index: 7;
+    top: 353px;
+    right: -75px;
+}
+
+.mute-icon {
+    z-index: 8;
+    top: 302px;
+    right: -490px;
+}
+
+.full-screen-icon {
+    z-index: 9;
+    left: 500px;
+    top: 302px;
+}
+
+.menu-icon {
+    width: 35px;
+    z-index: 10;
+    left: 500px;
+    top: 308px;
+}
+
+.horizontal-line {
+    display: flex;
+    position: relative;
+    z-index: 4;
+    top: 300px;
+    left: 25px;
+    right: 25px;
+}
+
+.mountain-video .hr-1 {
+    background-color: #FFFFFF;
+    height: 3px;
+    width: 150px;
+    border-radius: 5px;
+    margin-right: -5px;
+}
+
+.mountain-video .hr-2 {
+    background-color: rgba(105, 105, 105, 0.781);
+    height: 3px;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.subscription-section {
+    display: flex;
+    gap: 25px;
+}
+
+.subscription-form {
+    border: 1px solid #FF5400;
+    border-radius: 15px;
+    height: 380px;
+    width: 475px;
+    padding: 20px;
+}
+
+.subscription-form h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.subscription-form hr {
+    margin: 30px 10px 30px 10px ;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-container input {
+    width: 390px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: #00000015;
+}
+
+.subscribe-btn {
+    width: 415px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.subscription-discount {
+    height: 420px;
+    width: 670px;
+}
+
+.subscription-discount img {
+    position: absolute;
+}
+
+.subscription-discount div {
+    position: relative;
+    background-color: #FF5400;
+    width: 320px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+    top: 230px;
+    left: 345px;
+}
+
+.subscription-discount div h3 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.subscription-discount div h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width:600px) {
 
     header,
-    section {
+    section,
+    .card-container div,
+    .discount-card,
+    .place-section-description,
+    .mountain-video,
+    .subscription-form,
+    .subscription-discount {
         width: 335px;
         margin: auto;
     }
@@ -256,8 +622,17 @@ label {
     .tours-section,
     .img-container-1,
     .img-container-2,
-    .img-container-3 {
+    .img-container-3,
+    .card-container,
+    .discount-card-container,
+    .tour-details-container,
+    .place-section,
+    .subscription-section {
         flex-direction: column;
+    }
+
+    .hidden {
+        display: none;
     }
 
     .menu {
@@ -360,7 +735,163 @@ label {
         font-weight: 700;
         margin-bottom: -50px;
     }
-
     
+    .satorini-tour-container,
+    .satorini-tour-container-2,
+    .satorini-tour-container-3 {
+        height: 500px;
+        width: 335px;
+        padding: 185px 15px 15px 15px;
+        border-radius: 15px;
+    }
 
+    .satorini-tour-container-2 {
+        margin-top: -150px;
+        margin-bottom: -150px;
+    }
+
+    .tour-details-container {
+        gap: 1px;
+    }
+
+    .tour-details {
+        margin-left: -70px;
+        margin-bottom: -20px;
+        font-size: 1rem;
+    }
+
+    .satorini-tour {
+        background-color: #ffffffc0;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .satorini-tour h3 {
+        font-size: 1.25rem;
+        margin-top: 25px;
+        margin-bottom: -8px;
+    }
+
+    .satorini-tour-description {
+        font-size: 14px;
+    }
+
+    .tour-cost {
+        font-size: 1rem;
+    }
+
+    .Packages-btn {
+        display: none;
+    }
+
+    .place-section-description {
+        margin-top: -130px;
+    }
+
+    .place-section h1 {
+        font-size: 1.25rem;
+    }
+
+    .mountain-video {
+        height: 200px;
+        margin-top: -90px;
+    }
+
+    .bg-img {
+        width: 335px;
+        height: 200px;
+    }
+
+    .mountain-video h3 {
+        font-size: 1.25rem;
+        top: 130px;
+    }
+
+    .place-section p {
+        margin-top: 0px;
+    }
+
+    .mntn {
+        left: 60px;
+    }
+
+    .bng {
+        left: 110px;
+    }
+
+    .pause-icon {
+        left: 30px;
+        top: 149px;
+    }
+    
+    .icons p {
+        top: 122px;
+        left: 65px;
+    }
+    
+    .mute-icon {
+        top: 72px;
+        left: 220px;
+    }
+    
+    .full-screen-icon {
+        left: 225px;
+        top: 73px;
+    }
+    
+    .menu-icon {
+        width: 35px;
+        left: 220px;
+        top: 80px;
+    }
+    
+    .horizontal-line {
+        top: 65px;
+        left: 25px;
+        right: 25px;
+    }
+    
+    .mountain-video .hr-1 {
+        height: 3px;
+        width: 80px;
+        margin-left: -1px;
+    }
+    
+    .mountain-video .hr-2 {
+        width: 200px;
+        margin-left: -1px;
+    }
+
+    .subscription-section {
+        margin-top: 125px;
+    }
+
+    .input-container input {
+        width: 290px;
+    }
+    
+    .subscribe-btn {
+        width: 310px;
+    }
+
+    .subscription-discount img {
+        width: 375px;
+        height: 300px;
+    }
+
+    .subscription-discount div {
+        width: 210px;
+        height: 80px;
+        top: 170px;
+        left: 155px;
+    }
+
+    .subscription-discount div h3 {
+        font-size: 1rem;
+    }
+
+    .subscription-discount div h1 {
+        font-size: 1.35rem;
+    }
 }
