@@ -598,6 +598,30 @@ label {
 }
 
 footer {
+    margin-top: 100px;
+    background-color: #1313181c;
+    padding: 100px;
+}
+
+footer hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.web-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 260px;
+    height: 40px;
+}
+
+.footer-container-1 p {
+    text-align: center;
+}
+
+.footer-container-1,
+.footer-container-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
