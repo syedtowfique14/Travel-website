@@ -50,7 +50,7 @@ nav {
 }
 
 nav h1 {
-    margin-left: -350px;
+    margin-left: -390px;
     font-size: 2.5rem;
     font-weight: 800;
 }
@@ -391,6 +391,27 @@ label {
     margin-top: 25px;
 }
 
+.renowned-routes-section {
+    display: flex;
+    gap: 25px;
+    border: blue 5px solid;
+    padding: 45px;
+    border-radius: 10px;
+}
+
+.renowned-routes-section h1 {
+    color: #FF5400;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: -40px;
+}
+
+.renowned-routes-section img {
+    height: 350px;
+    width: 373px;
+    border-radius: 10px;
+}
+
 .place-section-description {
     width: 535px;
 }
@@ -627,6 +648,11 @@ footer hr {
     align-items: center;
 }
 
+footer hr {
+    color: black;
+    width: 1100px;
+}
+
 @media screen and (max-width:600px) {
 
     header,
@@ -636,7 +662,8 @@ footer hr {
     .place-section-description,
     .mountain-video,
     .subscription-form,
-    .subscription-discount {
+    .subscription-discount,
+    .renowned-routes-section {
         width: 335px;
         margin: auto;
     }
@@ -651,7 +678,8 @@ footer hr {
     .discount-card-container,
     .tour-details-container,
     .place-section,
-    .subscription-section {
+    .subscription-section,
+    .renowned-routes-section {
         flex-direction: column;
     }
 
@@ -679,7 +707,7 @@ footer hr {
     }
 
     nav h1 {
-        margin-left: -100px;
+        margin-left: -125px;
         font-size: 1.25rem;
         font-weight: 900;
     }
@@ -918,4 +946,35 @@ footer hr {
     .subscription-discount div h1 {
         font-size: 1.35rem;
     }
+
+    .renowned-routes-section {
+        padding: 40px;
+        margin-top: -150px;
+        margin-bottom: 200px;
+    }
+
+    .renowned-routes-section div, .renowned-routes-section img {
+        width: 325px;
+        margin-left: -10px;
+    }
+
+    footer {
+        margin-top: -100px;
+        background-color: #1313181c;
+        width: 335px;
+    }
+
+    footer hr {
+        width: 300px;
+        margin-left: -50px;
+    }
+
+    footer .footer-img {
+        margin-left: -30px;
+    }
+
+    footer p {
+        margin-left: -30px;
+    }
+    
 }
